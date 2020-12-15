@@ -32,8 +32,6 @@ from modules.new_end import *
 from functools import partial
 
 sys.path.append('/mnt/new_iou/second.pytorch/second/Rotated_ROIAlign')
-# sys.path.append('/home/spalab/jhyoo/15_second/second_v1.5/second.pytorch/second/Rotated_ROIAlign')
-# sys.path.append('/media/hdd1/project/second/second_v1.5/new_iou/basecode_new_15_second/second.pytorch/second/Rotated_ROIAlign')
 from roi_align_rotate import ROIAlignRotated
 import second.data.kitti_common_tracking_vid as kitti
 from modules.appear_net import AppearanceNet
